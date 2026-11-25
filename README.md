@@ -89,6 +89,8 @@ Set `DSH_HOME`/`DSH_PROFILE` as appropriate. The backup is never overwritten by 
   individually without reordering the columns.
 - Table header verdict: a mostly-Latin table with an Arabic header row is treated as RTL so report
   columns keep the Arabic reading order.
+- Markdown table cells use `white-space: normal` so long Arabic rows wrap instead of overprinting the
+  neighbouring cell.
 - Composer/Lexical paragraphs, text inputs and textareas get per-line direction; caret Left/Right
   handling is preserved for RTL lines.
 - Chrome/controls (toolbars, option rows, dialogs) keep their LTR geometry; text cells inside them can

@@ -1,6 +1,6 @@
 {
   "name": "dsh-arabic-rtl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Arabic/Hebrew bidi and full Tajawal typography for the DeepSeek Harness Web GUI",
   "type": "module",

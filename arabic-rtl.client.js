@@ -151,11 +151,14 @@ html:lang(ar) :is(.highlight, [class*="_highlight_"]),
  * inline code inside a cell keeps its own monospace rule.
  */
 [class*="_markdown_"] table {
-  font-family: 'TajawalDsh', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif !important;
+  font-family: 'TajawalDSH', 'TajawalDsh', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif !important;
   text-align: start !important;
+  white-space: normal !important;
 }
 [class*="_markdown_"] table :is(td, th) {
   text-align: start !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
 }
 
 /*
